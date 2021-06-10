@@ -1,0 +1,35 @@
+:root {
+  --primary: #FFF;
+  --secondary: #000;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#rect_01 {
+  fill: #FFF;
+}
+
+#circle_01 {
+  fill: #FFF;
+}
+
+#dot_01 {
+  fill: #FFF;
+}
